@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ⚠️ เก็บเฉพาะ CSS ที่ Tailwind ไม่มีเทียบเท่าโดยตรง */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: transparent;
+  /* ป้องกันการแทรกสีขาว */
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradient-slide {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  min-width: 200%;
+  animation: marquee 100s linear infinite;
+}
+
+@keyframes spin-reverse-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+    /* ทวนเข็มนาฬิกา */
+  }
+}
+
+.animate-spin-reverse-slow {
+  animation: spin-reverse-slow 6s linear infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  /* ปรับความกว้างของแถบเลื่อน */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00255d;
+  /* สีพื้นหลังของรางเลื่อน */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1f75ff;
+  /* สีของตัวเลื่อน */
+  border-radius: 16px;
+  /* ทำให้มุมโค้งมน */
+
+  /* 👇 เพิ่มบรรทัดนี้เพื่อทำให้ตัวเลื่อนดูเล็กลง */
+  border: 2px solid #00255d;
+  /* เพิ่มขอบสีเดียวกับ track */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #65a0ff;
+  /* สีของตัวเลื่อนเมื่อนำเมาส์ไปชี้ */
+}
+
+/* ส่วนของปุ่มลูกศร (Scrollbar Buttons) */
+::-webkit-scrollbar-button {
+  display: block;
+  height: 14px;
+  /* ความสูงของปุ่ม */
+  background-color: #00255d;
+  /* สีพื้นหลังให้เหมือนกับ track */
+}
+
+::-webkit-scrollbar-button:hover {
+  background-color: #65a0ff;
+  /* สีพื้นหลังเมื่อเมาส์ชี้ */
+}
+
+/* ลูกศรขึ้น (Up Arrow) */
+::-webkit-scrollbar-button:vertical:start:increment {
+  display: none;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+  /* 👇 แก้ไขค่า fill ใน url เป็นสีใหม่ */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231f75ff"><path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 9px;
+}
+
+/* ลูกศรลง (Down Arrow) */
+::-webkit-scrollbar-button:vertical:end:decrement {
+  display: none;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+  /* 👇 แก้ไขค่า fill ใน url เป็นสีใหม่ */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231f75ff"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 9px;
+}
+
+.underline-animate::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(to right, #38bdf8, #1e3a8a);
+  /* ฟ้าอ่อน → ฟ้าเข้ม */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms ease;
+}
+
+.underline-animate:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.underline-animate::after {
+  transition: transform 500ms ease;
+}
+
+.underline-animate:not(:hover)::after {
+  transform: scaleX(0);
+  transform-origin: center right;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Custom dark/light toggle behavior */
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+  }
+}
