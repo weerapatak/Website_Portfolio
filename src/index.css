@@ -12,8 +12,7 @@ html,
 body,
 #root {
   height: 100%;
-  background-color: transparent;
-  /* ป้องกันการแทรกสีขาว */
+  background-color: transparent; /* ป้องกันการแทรกสีขาว */
   margin: 0;
   padding: 0;
 }
@@ -22,11 +21,9 @@ body,
   0% {
     background-position: 0% 50%;
   }
-
   50% {
     background-position: 100% 50%;
   }
-
   100% {
     background-position: 0% 50%;
   }
@@ -36,7 +33,6 @@ body,
   0% {
     transform: translateX(0%);
   }
-
   100% {
     transform: translateX(-50%);
   }
@@ -52,10 +48,8 @@ body,
   0% {
     transform: rotate(0deg);
   }
-
   100% {
-    transform: rotate(-360deg);
-    /* ทวนเข็มนาฬิกา */
+    transform: rotate(-360deg); /* ทวนเข็มนาฬิกา */
   }
 }
 
@@ -65,46 +59,35 @@ body,
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
-  /* ปรับความกว้างของแถบเลื่อน */
+  width: 10px; /* ปรับความกว้างของแถบเลื่อน */
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #00255d;
-  /* สีพื้นหลังของรางเลื่อน */
+  background: #00255d; /* สีพื้นหลังของรางเลื่อน */
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #1f75ff;
-  /* สีของตัวเลื่อน */
-  border-radius: 16px;
-  /* ทำให้มุมโค้งมน */
-
-  /* 👇 เพิ่มบรรทัดนี้เพื่อทำให้ตัวเลื่อนดูเล็กลง */
-  border: 2px solid #00255d;
-  /* เพิ่มขอบสีเดียวกับ track */
+  background: #1f75ff; /* สีของตัวเลื่อน */
+  border-radius: 16px; /* ทำให้มุมโค้งมน */
+  border: 2px solid #00255d; /* เพิ่มขอบสีเดียวกับ track */
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #65a0ff;
-  /* สีของตัวเลื่อนเมื่อนำเมาส์ไปชี้ */
 }
 
-/* ส่วนของปุ่มลูกศร (Scrollbar Buttons) */
+/* Scrollbar buttons */
 ::-webkit-scrollbar-button {
   display: block;
   height: 14px;
-  /* ความสูงของปุ่ม */
   background-color: #00255d;
-  /* สีพื้นหลังให้เหมือนกับ track */
 }
 
 ::-webkit-scrollbar-button:hover {
   background-color: #65a0ff;
-  /* สีพื้นหลังเมื่อเมาส์ชี้ */
 }
 
 /* ลูกศรขึ้น (Up Arrow) */
@@ -113,7 +96,6 @@ body,
 }
 
 ::-webkit-scrollbar-button:vertical:decrement {
-  /* 👇 แก้ไขค่า fill ใน url เป็นสีใหม่ */
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231f75ff"><path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>');
   background-repeat: no-repeat;
   background-position: center;
@@ -126,11 +108,15 @@ body,
 }
 
 ::-webkit-scrollbar-button:vertical:increment {
-  /* 👇 แก้ไขค่า fill ใน url เป็นสีใหม่ */
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%231f75ff"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 9px;
+}
+
+/* ===== Underline Animate ===== */
+.underline-animate {
+  position: relative;
 }
 
 .underline-animate::after {
@@ -141,26 +127,32 @@ body,
   height: 2px;
   width: 100%;
   background-image: linear-gradient(to right, #38bdf8, #1e3a8a);
-  /* ฟ้าอ่อน → ฟ้าเข้ม */
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 300ms ease;
 }
 
+/* Desktop hover */
 .underline-animate:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
 
-.underline-animate::after {
-  transition: transform 500ms ease;
+/* มือถือ: เวลากด (active) หรือ focus (tab) */
+.underline-animate:active::after,
+.underline-animate:focus::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
-.underline-animate:not(:hover)::after {
-  transform: scaleX(0);
-  transform-origin: center right;
+/* ถ้าอยากให้เส้นใต้โชว์ตลอดในจอเล็ก */
+@media (max-width: 640px) {
+  .underline-animate::after {
+    transform: scaleX(1);
+  }
 }
 
+/* ===== Root font ===== */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-synthesis: none;
