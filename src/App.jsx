@@ -32,7 +32,7 @@ function App() {
     { label: "About", href: "#about" },
     { label: "Skills", href: "#skills" },
     { label: "Experience", href: "#experience" },
-    { label: "Contact", href: "#contact" },
+    { label: "Contacts", href: "#contact" },
   ];
 
   return (
@@ -168,113 +168,113 @@ function App() {
           <div className="absolute  left-0 right-0 w-full overflow-hidden bg-blue-50 py-10 z-10">
             <div className="whitespace-nowrap animate-marquee text-blue-600 font-bold text-lg tracking-wide">
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC DESIGN
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DESIGN
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PHOTOGRAPHER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION GRAPHIC
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DEVELOPMENT
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBSITE DEVELOPER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBFLOW
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> VIDEO EDITOR
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> EDITOR
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> FULL-STACK DEVELOPER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PROGRAMMER
-              </span>
-
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DESIGN
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DEVELOPMENT
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBFLOW
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> EDITOR
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PROGRAMMER
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> UX/UI DESIGN
               </span>
 
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC DESIGN
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DESIGN
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PHOTOGRAPHER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION GRAPHIC
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DEVELOPMENT
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBSITE DEVELOPER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBFLOW
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> VIDEO EDITOR
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> EDITOR
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> FULL-STACK DEVELOPER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PROGRAMMER
-              </span>
-
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DESIGN
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DEVELOPMENT
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBFLOW
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> EDITOR
-              </span>
-              <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PROGRAMMER
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> UX/UI DESIGN
               </span>
 
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC DESIGN
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DESIGN
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PHOTOGRAPHER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION GRAPHIC
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> DEVELOPMENT
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBSITE DEVELOPER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBFLOW
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> VIDEO EDITOR
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> EDITOR
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> FULL-STACK DEVELOPER
               </span>
               <span className="inline-block px-8">
-                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PROGRAMMER
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> UX/UI DESIGN
+              </span>
+
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC DESIGN
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PHOTOGRAPHER
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION GRAPHIC
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBSITE DEVELOPER
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> VIDEO EDITOR
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> FULL-STACK DEVELOPER
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> UX/UI DESIGN
+              </span>
+
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> GRAPHIC DESIGN
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> PHOTOGRAPHER
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> MOTION GRAPHIC
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> WEBSITE DEVELOPER
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> VIDEO EDITOR
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> FULL-STACK DEVELOPER
+              </span>
+              <span className="inline-block px-8">
+                <span className="inline-block animate-spin-reverse-slow mr-10">✱</span> UX/UI DESIGN
               </span>
             </div>
           </div>
@@ -374,9 +374,7 @@ function App() {
                   {/* รายละเอียด */}
                   <p className="text-lg text-gray-800 leading-relaxed group-hover:text-white transition-colors duration-100">
                     ผมเป็นคนที่ชอบเรียนรู้สิ่งใหม่ ๆ อยู่เสมอ และมักจะลงมือทำทุกอย่างด้วยตัวเอง
-                    ตลอดช่วงที่ผ่านมา ผมได้ลองทำงานจริงหลายด้านในบริษัทที่ทำงานอยู่
-                    ไม่ว่าจะเป็น Backend, Frontend, UX/UI หรือแม้แต่ Motion Graphic
-                    ผมก็ไม่เคยถอย ตั้งแต่การออกแบบ เขียนโค้ด ถ่ายภาพ ตัดต่อวิดีโอ ไปจนถึงปรับสี เกลี่ยสี
+                    ตลอดช่วงที่ผ่านมา ผมได้ฝึกฝนเรียนรู้ไม่เว้นแต่ละวันรวมถึงไม่เคยย่อท้อ ตั้งแต่การออกแบบ เขียนโค้ด ช่างถ่ายรูป ตัดต่อวิดีโอ ไปจนถึงการเกรดสีภาพ
                     ผมพยายามใส่ใจในทุกขั้นตอนให้มากที่สุด เพราะผมเชื่อว่างานที่ดีต้องเริ่มจากความตั้งใจ
                     ทุกชิ้นงานที่คุณจะได้เห็นต่อจากนี้ ผมลงมือทำเองทั้งหมด และหวังว่าจะถ่ายทอดตัวตนของผมผ่านงานเหล่านี้ได้อย่างดีที่สุด
                   </p>
@@ -389,89 +387,116 @@ function App() {
             id="skills"
             className="scroll-mt-24 p-8 mt-14 text-center text-gray-800"
           >
-            <h2 className="text-[48px] md:text-[52px] font-bold bg-blue-500 text-transparent bg-clip-text"
+            <h2
+              className="text-[48px] md:text-[52px] font-bold bg-blue-500 text-transparent bg-clip-text"
               data-aos="fade-up"
-              data-aos-delay="200">My Skills</h2>
-            <div className="grid md:grid-cols-3 gap-12 mt-12 text-left">
-              {/* ✅ Soft Skills - ซ้าย */}
+              data-aos-delay="200"
+            >
+              Skills
+            </h2>
+
+            {/* ✅ 2 row × 2 col */}
+            <div className="grid md:grid-cols-2 gap-12 mt-12 text-left">
+
+              {/* ✅ Soft Skills (ซ้ายบน) */}
               <div>
-                <h3 className="text-2xl font-bold text-blue-500 group-hover:text-white transition-colors duration-300"
+                <h3
+                  className="text-2xl font-bold text-blue-500 transition-colors duration-300"
                   data-aos="fade-right"
-                  data-aos-delay="200">
-                  Soft Skills
+                  data-aos-delay="200"
+                >
+                  Soft Skill
                 </h3>
-                <ul className="mt-6 space-y-3 list-none text-lg"
+                <ul
+                  className="mt-6 space-y-3 list-none text-lg"
                   data-aos="fade-right"
-                  data-aos-delay="200">
-                  <li>📚 รักการเรียนรู้</li>
-                  <li>🛠️ ลงมือทำจริง</li>
-                  <li>🎯 ตั้งใจทำงาน</li>
-                  <li>🧠 มีความคิดวิเคราะห์และสร้างสรรค์</li>
-                  <li>🔄 ยืดหยุ่น ปรับตัวได้ดี</li>
-                  <li>🗣️ สื่อสารเป็นธรรมชาติ</li>
-                  <li>⏱️ บริหารเวลาและขั้นตอนงานได้ดี</li>
-                  <li>💡 มี Passion / แรงจูงใจจากภายใน</li>
+                  data-aos-delay="200"
+                >
+                  <li>📚 มีความกระตือรือร้นในการเรียนรู้สิ่งใหม่ๆ อยู่เสมอ</li>
+                  <li>🛠️ นำความรู้ที่ได้มาประยุกต์ใช้และลงมือปฏิบัติจริงเพื่อสร้างผลลัพธ์ที่เป็นรูปธรรม</li>
+                  <li>🎯 มีความมุ่งมั่นและรับผิดชอบสูงในการทำงานที่ได้รับมอบหมาย</li>
+                  <li>🧠 วิเคราะห์ปัญหาได้อย่างเป็นระบบ และนำเสนอแนวคิดใหม่ๆ ที่สร้างสรรค์</li>
+                  <li>🔄 ปรับตัวเข้ากับสถานการณ์และสภาพแวดล้อมที่เปลี่ยนแปลงไปได้อย่างรวดเร็ว</li>
+                  <li>🗣️ มีทักษะการสื่อสารที่ดี รับฟังและทำงานร่วมกับผู้อื่นได้อย่างราบรื่น</li>
+                  <li>⏱️ จัดลำดับความสำคัญของงาน และบริหารจัดการเวลาได้อย่างมีประสิทธิภาพ</li>
+                  <li>💡 มีแรงบันดาลใจและความมุ่งมั่นจากภายในตนเองในการทำงานให้สำเร็จ</li>
                 </ul>
               </div>
 
-              {/* ✅ Tools - กลาง */}
-              <div>
-                <h3 className="text-2xl font-bold text-blue-500 group-hover:text-white transition-colors duration-300"
-                  data-aos="fade-up"
-                  data-aos-delay="200">
-                  Tools
-                </h3>
-                <div className="mt-6 grid grid-cols-3 gap-4"
-                  data-aos="fade-up"
-                  data-aos-delay="200">
-                  {[
-                    { name: "Adobe Premiere Pro", icon: "/premiere-pro.png" },
-                    { name: "Adobe PhotoShop", icon: "/photoshop.png" },
-                    { name: "Adobe Illustrator", icon: "/illustrator.png" },
-                    { name: "Adobe Lightroom", icon: "/photoshop-lightroom.png" },
-                    { name: "Visual Studio Code", icon: "/vscode.png" },
-                    { name: "Visual Studio 2022", icon: "/logo.png" },
-                    { name: "Figma", icon: "/figma.png" },
-                    { name: "Github", icon: "/github-sign.png" },
-                    { name: "Microsoft Excel", icon: "/excel.png" },
-                  ].map((skill, index) => (
-                    <div
-                      key={index}
-                      className="bg-blue-100 rounded-xl p-4 flex flex-col items-center text-center shadow hover:scale-105 transition-transform duration-300"
-                    >
-                      <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-2" />
-                      <p className="text-sm font-semibold text-gray-800 mt-1">{skill.name}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* ✅ Coding Skills - ขวา */}
-              <div>
-                <h3 className="text-2xl font-bold text-blue-500 group-hover:text-white transition-colors duration-300"
+              {/* ✅ Coding Skills (ขวาบน) */}
+              <div className="mx-20">
+                <h3
+                  className="text-2xl font-bold text-blue-500 transition-colors duration-300"
                   data-aos="fade-left"
-                  data-aos-delay="200">
-                  Coding Skills
+                  data-aos-delay="200"
+                >
+                  Coding Skill
                 </h3>
-                <div className="mt-6 grid grid-cols-2 gap-6"
+                <div
+                  className="mt-6 grid grid-cols-2 md:grid-cols-3 gap-6"
                   data-aos="fade-left"
-                  data-aos-delay="200">
+                  data-aos-delay="200"
+                >
                   {[
                     { name: "Python", icon: "/python.png" },
                     { name: "Java", icon: "/java.png" },
                     { name: "JavaScript", icon: "/java-script.png" },
                     { name: "HTML", icon: "/html.png" },
+                    { name: "C#", icon: "/c-sharp.png" },
                     { name: "CSS", icon: "/css-3.png" },
                     { name: "SQLite", icon: "/SQLite.png" },
-                    { name: "React", icon: "science.png" },
-                    { name: ".Net Maui", icon: "/microsoft-dot-net-icon.png" },
                   ].map((skill, index) => (
                     <div
                       key={index}
                       className="bg-blue-100 rounded-xl p-4 flex flex-col items-center text-center shadow hover:scale-105 transition-transform duration-300"
                     >
                       <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-2" />
-                      <p className="text-sm font-semibold text-gray-800 mt-1">{skill.name}</p>
+                      <p className="text-sm font-semibold text-gray-800 mt-1">
+                        {skill.name}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* ✅ Tools (แถวล่าง เต็มความกว้าง) */}
+              <div className="md:col-span-2 w-full">
+                <h3
+                  className="text-2xl font-bold text-blue-500 transition-colors duration-300"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  Tool
+                </h3>
+
+                {/* ใช้ auto-fit ให้กินพื้นที่เต็มบรรทัด */}
+                <div
+                  className="mt-6 grid grid-cols-[repeat(auto-fit,minmax(160px,1fr))] gap-4"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  {[
+                    { name: "Adobe Premiere Pro", icon: "/premiere-pro.png" },
+                    { name: "Adobe PhotoShop", icon: "/photoshop.png" },
+                    { name: "Adobe Illustrator", icon: "/illustrator.png" },
+                    { name: "Adobe Lightroom", icon: "/photoshop-lightroom.png" },
+                    { name: "Adobe Media Encoder", icon: "/media-encoder.png" },
+                    { name: "Visual Studio Code", icon: "/vscode.png" },
+                    { name: "Visual Studio 2022", icon: "/logo.png" },
+                    { name: "Microsoft Excel", icon: "/excel.png" },
+                    { name: "Figma", icon: "/figma.png" },
+                    { name: "React", icon: "/science.png" },       // แก้ path ให้ถูก
+                    { name: ".Net Maui", icon: "/microsoft-dot-net-icon.png" },
+                    { name: "Github", icon: "/github-sign.png" },
+                  ].map((skill, index) => (
+                    <div
+                      key={index}
+                      className="w-full bg-blue-100 rounded-xl p-4 flex flex-col items-center text-center shadow hover:scale-105 transition-transform duration-300"
+                    >
+                      <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-2" />
+                      <p className="text-sm font-semibold text-gray-800 mt-1">
+                        {skill.name}
+                      </p>
                     </div>
                   ))}
                 </div>
@@ -490,153 +515,132 @@ function App() {
             </h2>
 
             {/* ✅ กล่อง Grid 2 คอลัมน์ */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12 text-left px-4">
+            <div className="grid grid-cols-1 gap-12 mt-12 text-left px-4">
 
               {/* ✅ Mobile Application */}
               <div data-aos="fade-up" data-aos-delay="200">
                 <h3 className="text-2xl font-bold text-blue-500 mb-8">
-                  Mobile Application
+                  Mobile Application Developer - Managing daily mission notification
                 </h3>
-                <div className="bg-blue-100 p-6 rounded-xl flex flex-col md:flex-row items-start gap-6 shadow-lg">
+                <div className="bg-blue-100 p-6 rounded-xl flex flex-col md:flex-row items-start gap-14 shadow-lg">
+                  <img
+                    src="/1.png"
+                    alt="Mobile Application Preview"
+                    className="w-56 rounded-xl shadow-lg"
+                    data-aos="zoom-in"
+                    data-aos-delay="200"/>
                   <img
                     src="/5.png"
                     alt="Mobile Application Preview"
                     className="w-56 rounded-xl shadow-lg"
                     data-aos="zoom-in"
-                    data-aos-delay="200"
-                  />
+                    data-aos-delay="200"/>
                   <div className="flex-1" data-aos="fade-up" data-aos-delay="200">
-                    <p className="text-lg text-gray-800 leading-relaxed">
-                      แอปพลิเคชัน “NEXT STEP”<br />
-                      เป็นแอปแจ้งเตือนกิจกรรม โดยออกแบบให้ผู้ใช้งานสามารถตั้งเวลาและรายละเอียดกิจกรรม พร้อมฟีเจอร์<br />
-                      ✅ ระบบลงชื่อเข้าใช้งาน<br />
-                      ✅ ระบบสมัครสมาชิก<br />
-                      ✅ ระบบลืมรหัสผ่าน และเปลี่ยนรหัสผ่าน<br />
-                      ✅ การสร้าง แก้ไข และจัดการกิจกรรม<br />
-                      ✅ การดูประวัติกิจกรรมย้อนหลัง<br />
-                      ✅ การตั้งค่าบัญชีผู้ใช้<br />
-                      โดยมีเป้าหมายเพื่อช่วยให้ผู้ใช้บริหารเวลาได้อย่างมีประสิทธิภาพ สะดวกต่อการจัดการภารกิจในชีวิตประจำวัน
-                      อีกทั้งได้ฝึกทักษะเขียนโค้ดจริงทั้ง Frontend และ Backend และได้ประสบการณ์ในการแก้ปัญหาและปรับแผนการทำงานภายใต้ความรู้ที่มี
+                    <h3 className="text-5xl font-bold text-gray-900 mb-4">
+                      Next Step Application
+                    </h3>
+                    <p className="text-xl text-gray-800 leading-loose mt-6">
+                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้างแอปพลิเคชันบนมือถือ เพื่อให้ผู้ใช้สามารถบริหารเวลาได้อย่างมีประสิทธิภาพ
+                      สะดวกต่อการจัดการภารกิจในชีวิตประจำวัน<br />
+                      • ฝึกพัฒนาแอปพลิเคชันด้วยโปรแกรม Visual Studio 2022<br />
+                      • ฝึกทักษะการเขียน Logic ด้วยภาษา C#<br />
+                      • ฝึกสร้างสรรค์การออกแบบที่สวยงามใช้งานง่าย(UI) ด้วย Figma และ Adobe Photoshop อีกทั้งยังมอบประสบการณ์การใช้งานให้ผู้ใช้ได้ประทับใจ(UX)<br />
+                      • ฝึกทักษะการทำงานร่วมกับผู้อื่น เพื่อสร้างแอปพลิเคชันได้อย่างมีประสิทธิภาพและใช้งานได้อย่างราบรื่น
                     </p>
                   </div>
                 </div>
               </div>
 
-              {/* ✅ Editor & Graphic Design */}
+              {/* ✅ Java Developer */}
               <div data-aos="fade-up" data-aos-delay="300">
                 <h3 className="text-2xl font-bold text-blue-500 mb-8">
-                  Editor & Graphic Design
-                </h3>
-                <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-6 shadow-lg">
-                  <img
-                    src="/12.png"
-                    alt="Editor & Graphic Design Preview"
-                    className="w-full max-w-xl rounded-xl shadow-lg"
-                    data-aos="zoom-in"
-                    data-aos-delay="300"
-                  />
-                  <div className="text-gray-800 text-lg leading-relaxed text-left">
-                    <p>
-                      ตัวอย่างผลงานด้านการตัดต่อวิดีโอและออกแบบกราฟิก มีประสบการณ์ในการผลิตสื่อภาพและวิดีโอที่หลากหลาย
-                      ครอบคลุมทั้งโซเชียลมีเดีย อินโฟกราฟิก ไปจนถึงงานแอนิเมชันเบื้องต้น โดยเน้นการออกแบบที่เรียบง่าย ทันสมัย
-                      และสื่อสารได้อย่างตรงใจกลุ่มเป้าหมาย ใช้เครื่องมือระดับมืออาชีพ ได้แก่<br />
-                      ✅ Adobe Premiere Pro สำหรับตัดต่อวิดีโอ<br />
-                      ✅ Adobe Photoshop สำหรับการออกแบบและตกแต่งภาพ<br />
-                      ✅ Adobe Illustrator สำหรับสร้างกราฟิกเวกเตอร์และอินโฟกราฟิก<br />
-                      ผลงานทั้งหมดมุ่งเน้นคุณภาพ ความชัดเจน และสามารถนำไปใช้จริงในเชิงธุรกิจหรือการสื่อสารออนไลน์อย่างมีประสิทธิภาพ
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* ✅ Java Programmer */}
-              <div data-aos="fade-up" data-aos-delay="400">
-                <h3 className="text-2xl font-bold text-blue-500 mb-8">
-                  Java Programmer
+                  Java Developer - A Desktop Application for a Game Trading Simulation System
                 </h3>
                 <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-6 shadow-lg">
                   <img
                     src="/Screenshot 2024-07-22 011545.png"
-                    alt="Java Programmer Preview"
+                    alt="Java Developer Preview"
+                    className="w-full max-w-xl rounded-xl shadow-lg"
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                  />
+                  <div className="text-gray-800 text-lg leading-relaxed text-left w-full">
+                    <h3 className="text-5xl font-bold text-gray-900 mb-4 leading-snug text-center lg:text-left">
+                      Game Trading Simulation System
+                    </h3>
+                    <p className="text-xl text-gray-800 leading-loose">  
+                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้าง Desktop Application จากภาษา Java
+                      เพื่อเพิ่มทักษะความชำนาญในการเขียนโปรแกรมแบบ OOP (Object-Oriented Programming)<br />
+                      • ฝึกทักษะการออกแบบ UX/UI โปรแกรมให้ใช้งานง่ายด้วย Figma และ Adobe Photoshop<br />
+                      • ฝึกการเรียนรู้การใช้ Database เพื่อเก็บข้อมูลต่างๆ ในฐานข้อมูล<br />
+                      • ฝึกทักษะการทำงานร่วมกับคนในกลุ่ม เพื่อสร้างโปรแกรมจำลองให้มีประสิทธิภาพมากที่สุด
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* ✅ Website Developer */}
+              <div data-aos="fade-up" data-aos-delay="400">
+                <h3 className="text-2xl font-bold text-blue-500 mb-8">
+                  Website Developer - Flood Alert Website
+                </h3>
+                <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-8 shadow-lg">
+                  <img
+                    src="/Screenshot 2024-07-28 151743.png"
+                    alt="Website Developer Preview"
                     className="w-full max-w-xl rounded-xl shadow-lg"
                     data-aos="zoom-in"
                     data-aos-delay="400"
                   />
-                  <div className="text-gray-800 text-lg leading-relaxed text-left">
-                    <p>
-                      พัฒนาโปรเจกต์เกี่ยวกับการทำ Desktop Application โดยใช้ภาษา Java
-                      ในการเขียนโปรแกรมระบบการจำลองการซื้อ-ขายเกม โดยได้รับแรงบันดาลใจจากแอป Steam
-                      ได้รับหน้าที่ Design App ทั้ง Frontend และ Backend และฝึกการเขียนโปรแกรมแบบ OOP
-                      ซึ่งช่วยพัฒนาทักษะการเขียนโปรแกรมและทำงานร่วมกับทีม
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* ✅ Web Development */}
-              <div data-aos="fade-up" data-aos-delay="500">
-                <h3 className="text-2xl font-bold text-blue-500 mb-8">
-                  Web Development
-                </h3>
-                <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-6 shadow-lg">
-                  <img
-                    src="/Screenshot 2024-07-28 151743.png"
-                    alt="Web Development Preview"
-                    className="w-full max-w-xl rounded-xl shadow-lg"
-                    data-aos="zoom-in"
-                    data-aos-delay="500"
-                  />
-                  <div className="text-gray-800 text-lg leading-relaxed text-left">
-                    <p>
-                      พัฒนาเว็บไซต์โดยใช้ React.js, Vite, HTML, CSS, Tailwind และ JavaScript
-                      ทั้งในส่วน frontend และ backend รวมถึงเชื่อมต่อฐานข้อมูล
-                      มีประสบการณ์การ deploy เว็บไซต์จริง และใช้ GitHub ร่วมกับทีม
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* ✅ Photography & Retouching */}
-              <div data-aos="fade-up" data-aos-delay="600">
-                <h3 className="text-2xl font-bold text-blue-500 mb-8">
-                  Photography & Retouching
-                </h3>
-                <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-6 shadow-lg">
-                  <img
-                    src="/FB4CF4DF-B224-4593-A23F-97C055F0755B.jpg"
-                    alt="Photography Preview"
-                    className="w-64 rounded-xl shadow-lg"
-                    data-aos="zoom-in"
-                    data-aos-delay="600"
-                  />
-                  <div className="text-gray-800 text-lg leading-relaxed text-left">
-                    <p>
-                      ได้มีโอกาสทำงานจริงในงานถ่ายภาพแนว Portrait และ Product รวมถึงมีทักษะการรีทัชภาพ
-                      ใช้กล้อง Mirrorless และโปรแกรม Adobe Lightroom/Photoshop
-                      เพื่อปรับแสง สี และรายละเอียดให้สื่ออารมณ์ได้ตรงตามความต้องการ
+                  <div className="text-gray-800 text-lg leading-relaxed text-left w-full">
+                    <h3 className="text-5xl font-bold text-gray-900 mb-4 leading-snug text-center lg:text-left">
+                      Flood Alert Website
+                    </h3>
+                    <p className="text-xl text-gray-800 leading-loose">
+                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้างเว็บไซต์ที่สามารถใช้งานได้จริง เพื่อฝึกทักษะการเขียนโค้ดให้ดียิ่งขึ้น<br />
+                      • พัฒนาเว็บไซต์ด้วย React.js ร่วมกับ Vite, Tailwind CSS เพื่อช่วยให้การสร้างเว็บไซต์สะดวกและรวดเร็วขึ้น<br />
+                      • ฝึกทักษะสาย Full-Stack Developer และ Database<br />
+                      • ได้เรียนรู้ภาษา html, css, Javascript เพิ่มมากขึ้น<br />
+                      • ได้ฝึกใช้งานเครื่องมือเสริมจาก React Library และ Bootstrap framework เพื่อช่วยให้หน้าตาของเว็บไซต์มีโครงสร้างที่ดีและสวยงาม<br />
+                      • ได้เรียนรู้การ Deploy เว็บไซต์ให้ใช้งานได้จริงร่วมกับ Github
                     </p>
                   </div>
                 </div>
               </div>
 
               {/* ✅ Python Programmer */}
-              <div data-aos="fade-up" data-aos-delay="700">
+              <div data-aos="fade-up" data-aos-delay="500">
                 <h3 className="text-2xl font-bold text-blue-500 mb-8">
-                  Python Programmer
+                  Python Developer - Desktop Application with Tkinter python
                 </h3>
-                <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-6 shadow-lg">
-                  <img
-                    src="/11111.png"
-                    alt="Python Programmer Preview"
-                    className="w-74 rounded-xl shadow-lg"
-                    data-aos="zoom-in"
-                    data-aos-delay="700"
-                  />
-                  <div className="text-gray-800 text-lg leading-relaxed text-left">
-                    <p>
-                      พัฒนาโปรเจกต์ Desktop Application โดยใช้ภาษา Python
-                      เกี่ยวกับการจำลองระบบซื้อตั๋วรถไฟฟ้า BTS และ MRT ได้รับหน้าที่ออกแบบ UX/UI และพัฒนา Frontend + Backend
-                      ฝึกใช้ OOP และพัฒนาแนวคิดการทำงานเป็นทีมอย่างมีระบบ
+                <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-8 shadow-lg">
+                  {/* 🔹 รูปภาพเรียงซ้าย-ขวา */}
+                  <div className="flex flex-row gap-6 justify-center">
+                    <img
+                      src="/11111.png"
+                      alt="Python Developer Preview"
+                      className="w-2/5 max-w-md rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="500"
+                    />
+                    <img
+                      src="/Screenshot 2025-09-10 193058.png"
+                      alt="Python Developer Preview"
+                      className="w-2/5 max-w-md rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="500"
+                    />
+                  </div>
+                  <div className="text-gray-800 text-lg leading-relaxed text-left w-full">
+                    <h3 className="text-5xl font-bold text-gray-900 mb-4 leading-snug text-center lg:text-left">
+                      BTS & MRT Ticketing Simulation System
+                    </h3>
+                    <p className="text-xl text-gray-800 leading-loose">
+                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้างระบบจำลองด้วยภาษา Python ร่วมกับเครื่องเสริมอย่าง Tkinter Library
+                      เพื่อสร้างโปรแกรมเดสก์ท็อป<br /> ที่ผู้ใช้สามารถตอบโต้ได้<br />
+                      • ฝึกทักษะสาย Full-Stack Developer และ Database(DB Browser SQL)<br />
+                      • ฝึกการออกแบบ UX/UI แอปพลิเคชันด้วย Figma และ Adobe Photoshop<br />
+                      • ได้ทำโปรเจกต์ร่วมกับเพื่อน ซึ่งพวกเราเข้ากันได้ดีมาก
                     </p>
                   </div>
                 </div>
@@ -644,6 +648,81 @@ function App() {
             </div>
           </section>
 
+          <section
+            id="experience"
+            className="scroll-mt-24 p-8 mt-14 text-center"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            >
+            <h2 className="text-[48px] md:text-[52px] font-bold bg-blue-500 text-transparent bg-clip-text">
+              Work Experience</h2>
+            
+            {/* ✅ กล่อง Grid 2 คอลัมน์ */}
+            <div className="grid grid-cols-1 gap-12 mt-12 text-left px-4">
+  
+              {/* ✅ Editor & Graphic Design */}
+              <div data-aos="fade-up" data-aos-delay="600">
+                <h3 className="text-2xl font-bold text-blue-500 mb-8">
+                  Editor & Graphic Design - Aiyara Gems Co., Ltd.
+                </h3>
+                <div className="bg-blue-100 p-6 rounded-xl flex flex-col items-center gap-3 shadow-lg">
+                  <div className="flex flex-row gap-4 justify-center">
+                    <img
+                      src="/12.png"
+                      alt="Editor & Graphic Design Preview"
+                      className="w-3/4 max-w-lg rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="600"
+                    />
+                    <img
+                      src="/Screenshot 2025-09-11 173650.png"
+                      alt="Editor & Graphic Design Preview"
+                      className="w-3/4 max-w-lg rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="600"
+                    />
+                  </div>
+                  <div className="text-gray-800 text-lg leading-relaxed text-left mt-4">
+                    <p className="text-xl text-gray-800 leading-loose">
+                      ผมมีประสบการณ์การทำงานจริงจากบริษัท Aiyara Gems ซึ่งเป็นบริษัทสายอินฟลูเอนเซอร์ขายเพชรและเครื่องประดับต่างๆ
+                      ผมเริ่มเข้าทำงานที่นี่ตั้งแต่เดือนมิถุนายนปี 2565 มาจนถึงปัจจุบัน และได้สะสมประสบการณ์ทักษะที่จำเป็น ไม่ว่าจะเป็น<br />
+                      • การนำเสนอผลงานและพูดคุยกับ CEO บริษัทในเรื่องของการทำงานข้ามสายงานไม่ตรงกับสาขาที่เรียน<br />
+                      • ได้ทำงานร่วมกันเป็นทีมในแต่ละโปรเจกต์ของบริษัท<br />
+                      • ได้ออกแบบและดีไซน์จริง ได้ลงมือปฎิบัติจริงนอกเหนือจากสิ่งที่เรียนในห้องเรียน<br />
+                      • ได้ฝึกทักษะจินตนาการสร้างสรรค์ลงในผลงาน และถ่ายทอดผลงานออกสื่อโซเชียลมีเดียจริง
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* ✅ Photography & Retouching */}
+              <div data-aos="fade-up" data-aos-delay="700">
+                <h3 className="text-2xl font-bold text-blue-500 mb-8">
+                  Photographer & Graphic Design - RC Store & KP Store Mobile Phone Repair Services
+                </h3>
+                <div className="bg-blue-100 p-6 rounded-xl flex flex-col lg:flex-row items-center gap-8 shadow-lg">
+                  <img
+                    src="/FB4CF4DF-B224-4593-A23F-97C055F0755B.jpg"
+                    alt="Photographer Preview"
+                    className="w-64 rounded-xl shadow-lg"
+                    data-aos="zoom-in"
+                    data-aos-delay="700"
+                  />
+                  <div className="text-gray-800 text-lg leading-relaxed text-left">
+                    <p className="text-xl text-gray-800 leading-loose">
+                      ผมได้มีประสบการณ์การรับงานฟรีแลนซ์ ซึ่งงานนี้เป็นงานที่ท้าทายตัวผมเป็นอย่างมาก ผมได้เรียนรู้การถ่ายภาพแนว Portrait เรียนรู้การใช้<br />กล้องดิจิทัล การจัดวางไฟและองค์ประกอบต่างๆ
+                      เพื่อปรับแสง สี รายละเอียดให้ดีที่สุด และตรงตามความต้องการของผู้ใช้<br />
+                      • ได้เก็บเกี่ยวประสบการณ์การถ่ายงานแบบภาพนิ่ง<br />
+                      • ได้ฝึกทักษะการสื่อสารพูดคุยเกี่ยวกับงาน ตามที่ผู้ใช้งานอยากได้<br />
+                      • ได้ออกแบบดีไซน์โลโก้ตามบรีฟที่ได้รับให้กับผู้ใช้<br />
+                      • ฝึกทักษะการแต่งภาพและเกรดสีภาพ ด้วย Adobe Lightroom<br />
+                      • ฝึกทักษะการไดคัทและรีทัชภาพ ด้วย Adobe Photoshop
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
           <section
             id="contact"
@@ -651,69 +730,70 @@ function App() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h2 className="text-[48px] md:text-[52px] font-bold bg-blue-500 text-transparent bg-clip-text">Contact</h2>
+            <h2 className="text-[48px] md:text-[52px] font-bold bg-blue-500 text-transparent bg-clip-text">
+              Contacts
+            </h2>
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-y-12 md:gap-x-24 justify-items-center">
 
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-y-12 md:gap-x-24 justify-items-center">
               {/* Email */}
-              <div className="flex flex-col items-center"
-                data-aos="fade-right"
-                data-aos-delay="200">
+              <div className="flex flex-col items-center" data-aos="fade-right" data-aos-delay="200">
                 <img
                   src="/mail.png"
                   alt="Email Icon"
                   className="w-14 h-14 mb-4"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
                 />
                 <a
                   href="mailto:weerapatak47@gmail.com"
                   className="text-blue-600 underline text-lg"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
                 >
                   weerapatak47@gmail.com
                 </a>
               </div>
 
               {/* Phone */}
-              <div className="flex flex-col items-center"
-                data-aos="fade-up"
-                data-aos-delay="200">
+              <div className="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
                 <img
                   src="/phone.png"
                   alt="Phone Icon"
                   className="w-14 h-14 mb-4"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
                 />
-                <p className="text-lg"
-                  data-aos="fade-up"
-                  data-aos-delay="200">
-                  086-466-3853</p>
+                <p className="text-lg">086-466-3853</p>
+              </div>
+
+              {/* LinkedIn */}
+              <div className="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
+                <img
+                  src="/linkedinn.png"
+                  alt="LinkedIn Icon"
+                  className="w-14 h-14 mb-4"
+                />
+                <a
+                  href="https://www.linkedin.com/in/weerapat-arkomsansern-836446380/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 underline text-lg"
+                >
+                  linkedin.com/in/weerapatak
+                </a>
               </div>
 
               {/* GitHub */}
-              <div className="flex flex-col items-center"
-                data-aos="fade-left"
-                data-aos-delay="200">
+              <div className="flex flex-col items-center" data-aos="fade-left" data-aos-delay="200">
                 <img
                   src="/github-sign.png"
                   alt="GitHub Icon"
                   className="w-14 h-14 mb-4"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
                 />
                 <a
                   href="https://github.com/weerapatak"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 underline text-lg"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
+                  className="text-blue-600 underline text-lg"
                 >
-                  https://github.com/weerapatak
+                  github.com/weerapatak
                 </a>
               </div>
+
             </div>
           </section>
         </main>
