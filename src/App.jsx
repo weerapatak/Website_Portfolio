@@ -60,17 +60,16 @@ function App() {
                 {navItems.map((item) => (
                   <a
                     key={item.href}
-                    href={item.href !== "#home" ? item.href : undefined}
-                    onClick={
-                      item.href === "#home"
-                        ? () => {
-                            setMenuOpen(false);
-                            window.scrollTo({ top: 0, behavior: "smooth" });
-                          }
-                        : () => {
-                            setMenuOpen(false);
-                          }
-                    }
+                    href={item.href === "#home" ? "#home" : item.href}
+                    onClick={(e) => {
+                      setMenuOpen(false);
+
+                      if (item.href === "#home") {
+                        e.preventDefault(); // กันไม่ให้กระตุก
+                        window.location.hash = "#home"; // บังคับเปลี่ยน URL
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                      }
+                    }}
                     className="relative inline-block text-blue-900 underline-animate cursor-pointer"
                   >
                     {item.label}
@@ -180,7 +179,7 @@ function App() {
                 "MOTION GRAPHIC",
                 "WEBSITE DEVELOPER",
                 "VIDEO EDITOR",
-                "FULL-STACK DEVELOPER",
+                "FRONT-END DEVELOPER",
                 "UX/UI DESIGN",
               ].map((skill, index) => (
                 <span key={index} className="inline-block px-4 sm:px-6 md:px-8">
@@ -194,7 +193,59 @@ function App() {
                 "MOTION GRAPHIC",
                 "WEBSITE DEVELOPER",
                 "VIDEO EDITOR",
-                "FULL-STACK DEVELOPER",
+                "FRONT-END DEVELOPER",
+                "UX/UI DESIGN",
+              ].map((skill, index) => (
+                <span key={`repeat-${index}`} className="inline-block px-4 sm:px-6 md:px-8">
+                  <span className="inline-block animate-spin-reverse-slow mr-6 sm:mr-10">✱</span> {skill}
+                </span>
+              ))}
+              {[
+                "GRAPHIC DESIGN",
+                "PHOTOGRAPHER",
+                "MOTION GRAPHIC",
+                "WEBSITE DEVELOPER",
+                "VIDEO EDITOR",
+                "FRONT-END DEVELOPER",
+                "UX/UI DESIGN",
+              ].map((skill, index) => (
+                <span key={`repeat-${index}`} className="inline-block px-4 sm:px-6 md:px-8">
+                  <span className="inline-block animate-spin-reverse-slow mr-6 sm:mr-10">✱</span> {skill}
+                </span>
+              ))}
+              {[
+                "GRAPHIC DESIGN",
+                "PHOTOGRAPHER",
+                "MOTION GRAPHIC",
+                "WEBSITE DEVELOPER",
+                "VIDEO EDITOR",
+                "FRONT-END DEVELOPER",
+                "UX/UI DESIGN",
+              ].map((skill, index) => (
+                <span key={`repeat-${index}`} className="inline-block px-4 sm:px-6 md:px-8">
+                  <span className="inline-block animate-spin-reverse-slow mr-6 sm:mr-10">✱</span> {skill}
+                </span>
+              ))}
+              {[
+                "GRAPHIC DESIGN",
+                "PHOTOGRAPHER",
+                "MOTION GRAPHIC",
+                "WEBSITE DEVELOPER",
+                "VIDEO EDITOR",
+                "FRONT-END DEVELOPER",
+                "UX/UI DESIGN",
+              ].map((skill, index) => (
+                <span key={`repeat-${index}`} className="inline-block px-4 sm:px-6 md:px-8">
+                  <span className="inline-block animate-spin-reverse-slow mr-6 sm:mr-10">✱</span> {skill}
+                </span>
+              ))}
+              {[
+                "GRAPHIC DESIGN",
+                "PHOTOGRAPHER",
+                "MOTION GRAPHIC",
+                "WEBSITE DEVELOPER",
+                "VIDEO EDITOR",
+                "FRONT-END DEVELOPER",
                 "UX/UI DESIGN",
               ].map((skill, index) => (
                 <span key={`repeat-${index}`} className="inline-block px-4 sm:px-6 md:px-8">
@@ -448,13 +499,120 @@ function App() {
             {/* Grid container */}
             <div className="grid grid-cols-1 gap-12 mt-12 text-left">
 
-              {/* Mobile Application */}
+              {/* UX/UI Design – NEW FIRST COLUMN */}
+              <div data-aos="fade-up" data-aos-delay="150">
+                <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8">
+                  UX/UI Design – Creative Interface & Prototype Design
+                </h3>
+
+                <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 shadow-lg">
+                  
+                  {/* Image */}
+                  <div className="flex-shrink-0">
+                    <img
+                      src="/Figma_1.png"
+                      alt="UX/UI Preview"
+                      className="w-full max-w-sm sm:max-w-xl rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="200"
+                    />
+                  </div>
+
+                  {/* Text */}
+                  <div className="flex-1" data-aos="fade-up" data-aos-delay="250">
+                    <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                      UX/UI Design By Figma
+                    </h3>
+
+                    <p className="text-base sm:text-lg md:text-xl text-gray-800 leading-relaxed mt-4 md:mt-6">
+                      ออกแบบ UX/UI สำหรับเว็บไซต์ แอปพลิเคชัน สไลด์นำเสนองาน และอื่นๆอีกมากมาย โดยเน้นความสวยงาม ใช้งานง่าย และตอบโจทย์ผู้ใช้งาน<br />
+                      • ออกแบบ Wireframe Prototype ด้วย Figma<br />
+                      • สร้าง Design System, UI Components, Layout<br />
+                      • วางโครงสร้าง UX ให้มี Flow ที่เข้าใจง่ายและเหมาะกับผู้ใช้งานจริง<br />
+                      • นอกจากการออกแบบ Ux/Ui ยังสามารถทำสไลด์ประกอบการนำเสนอได้อีกด้วย<br />
+
+                      {/* ⭐️ ลิงก์ใหม่ที่เพิ่ม */}
+                      <a
+                        href="https://www.figma.com/design/F6SVYJBILy11M3oZvkzhPt/Ux-Ui-Design?node-id=3-23&t=ijS1zPKDzlwyrKzz-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 font-semibold underline hover:text-blue-800 transition"
+                      >
+                        ➡️ ดูตัวอย่างงานออกแบบเพิ่มเติมได้ที่นี่! ⬅️
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Website Developer */}
+              <div data-aos="fade-up" data-aos-delay="400">
+                <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8 text-left">
+                  Website Developer -  UDetectionNews Website & Flood Alert Website
+                </h3>
+                <div className="flex flex-col gap-8">
+                  {/* ========= BOX 1 ========= */}
+                  <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col items-center gap-6 shadow-lg">
+                  {/* แถวที่ 1 – รูปภาพ */}
+                  <div className="flex flex-row gap-4 sm:gap-8 items-center">
+                    <img
+                      src="/หน้าแรก.png"
+                      alt="Website Developer Preview"
+                      className="w-full max-w-lg rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="400"
+                    />
+
+                    <img
+                      src="/หน้าเลือกเมนูตรวจสอบข้อความข่าว.png"
+                      alt="Website Developer Preview"
+                      className="w-full max-w-lg rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="200"
+                    />
+                  </div>
+                  {/* แถวที่ 2 – ข้อความ */}
+                  <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed text-left w-full">
+                    <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-snug text-left">
+                      UDetectionNews Website
+                    </h3>
+                    <p className="text-base sm:text-lg md:text-xl leading-loose">
+                      เว็บไซต์การให้บริการวิเคราะห์และตรวจจับข่าวเท็จ ใช้สำหรับตรวจสอบว่า “ข่าวจริงหรือข่าวปลอม” จากข้อความ(Text) ลิงก์เว็บไซต์(Link URL) พร้อมให้เหตุผลประกอบ และโชว์แหล่งข่าวที่ใกล้เคียง<br />
+                      • ใช้ Firebase + React<br />
+                      • ระบบ Authentication และ Dashboard
+                    </p>
+                  </div>
+                </div>
+                {/* ========= BOX 2 ========= */}
+                  <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col items-center gap-4 sm:gap-8 shadow-lg">
+                    <img
+                      src="/Screenshot 2024-07-28 151743.png"
+                      alt="Website Developer Preview"
+                      className="w-full max-w-sm sm:max-w-xl rounded-xl shadow-lg"
+                      data-aos="zoom-in"
+                      data-aos-delay="400"
+                    />
+                    <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed text-left w-full">
+                      <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-snug text-left">
+                        Flood Alert Website
+                      </h3>
+                      <p className="text-base sm:text-lg md:text-xl leading-loose">
+                        เว็บไซต์แจ้งเตือนน้ำท่วมแบบ Real-time พัฒนาด้วย React.js + Vite + Tailwind<br />
+                        • พัฒนาทั้ง Front-end และ Database<br />
+                        • เรียนรู้ React Libraries, Bootstrap และการ Deploy บน Github
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Mobile Application – MOVED DOWN */}
               <div data-aos="fade-up" data-aos-delay="200">
                 <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8">
                   Mobile Application Developer - Managing daily mission notification
                 </h3>
                 <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8 shadow-lg">
-                  {/* รูปซ้าย */}
+                  {/* Left Image */}
                   <div className="flex-shrink-0">
                     <img
                       src="/1.png"
@@ -465,7 +623,7 @@ function App() {
                     />
                   </div>
 
-                  {/* รูปกลาง */}
+                  {/* Middle Image */}
                   <div className="flex-shrink-0">
                     <img
                       src="/5.png"
@@ -476,75 +634,16 @@ function App() {
                     />
                   </div>
 
-                  {/* ข้อความทางขวา */}
+                  {/* Right Text */}
                   <div className="flex-1" data-aos="fade-up" data-aos-delay="200">
                     <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                       Next Step Application
                     </h3>
                     <p className="text-base sm:text-lg md:text-xl text-gray-800 leading-relaxed mt-4 md:mt-6">
-                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้างแอปพลิเคชันบนมือถือ เพื่อให้ผู้ใช้สามารถบริหารเวลาได้อย่างมีประสิทธิภาพ
-                      สะดวกต่อการจัดการภารกิจในชีวิตประจำวัน<br />
-                      • ฝึกพัฒนาแอปพลิเคชันด้วยโปรแกรม Visual Studio 2022<br />
+                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้างแอปพลิเคชันบนมือถือ เพื่อให้ผู้ใช้สามารถบริหารเวลาได้อย่างมีประสิทธิภาพ<br />
+                      • พัฒนาแอปด้วย Visual Studio 2022<br />
                       • ฝึกทักษะการเขียน Logic ด้วยภาษา C#<br />
-                      • ฝึกสร้างสรรค์การออกแบบที่สวยงามใช้งานง่าย(UI) ด้วย Figma และ Adobe Photoshop อีกทั้งยังมอบประสบการณ์การใช้งานให้ผู้ใช้ได้ประทับใจ(UX)<br />
-                      • ฝึกทักษะการทำงานร่วมกับผู้อื่น เพื่อสร้างแอปพลิเคชันได้อย่างมีประสิทธิภาพและใช้งานได้อย่างราบรื่น
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Java Developer */}
-              <div data-aos="fade-up" data-aos-delay="300">
-                <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8 text-left">
-                  Java Developer - A Desktop Application for a Game Trading Simulation System
-                </h3>
-                <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col items-center gap-4 sm:gap-6 shadow-lg">
-                  <img
-                    src="/Screenshot 2024-07-22 011545.png"
-                    alt="Java Developer Preview"
-                    className="w-full max-w-sm sm:max-w-xl rounded-xl shadow-lg"
-                    data-aos="zoom-in"
-                    data-aos-delay="300"
-                  />
-                  <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed text-left w-full">
-                    <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-snug text-left">
-                      Game Trading Simulation System
-                    </h3>
-                    <p className="text-base sm:text-lg md:text-xl leading-loose">
-                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้าง Desktop Application จากภาษา Java
-                      เพื่อเพิ่มทักษะความชำนาญในการเขียนโปรแกรมแบบ OOP (Object-Oriented Programming)<br />
-                      • ฝึกทักษะการออกแบบ UX/UI โปรแกรมให้ใช้งานง่ายด้วย Figma และ Adobe Photoshop<br />
-                      • ฝึกการเรียนรู้การใช้ Database เพื่อเก็บข้อมูลต่างๆ ในฐานข้อมูล<br />
-                      • ฝึกทักษะการทำงานร่วมกับคนในกลุ่ม เพื่อสร้างโปรแกรมจำลองให้มีประสิทธิภาพมากที่สุด
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Website Developer */}
-              <div data-aos="fade-up" data-aos-delay="400">
-                <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8 text-left">
-                  Website Developer - Flood Alert Website
-                </h3>
-                <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col items-center gap-4 sm:gap-8 shadow-lg">
-                  <img
-                    src="/Screenshot 2024-07-28 151743.png"
-                    alt="Website Developer Preview"
-                    className="w-full max-w-sm sm:max-w-xl rounded-xl shadow-lg"
-                    data-aos="zoom-in"
-                    data-aos-delay="400"
-                  />
-                  <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed text-left w-full">
-                    <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-snug text-left">
-                      Flood Alert Website
-                    </h3>
-                    <p className="text-base sm:text-lg md:text-xl leading-loose">
-                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้างเว็บไซต์ที่สามารถใช้งานได้จริง เพื่อฝึกทักษะการเขียนโค้ดให้ดียิ่งขึ้น<br />
-                      • พัฒนาเว็บไซต์ด้วย React.js ร่วมกับ Vite, Tailwind CSS เพื่อช่วยให้การสร้างเว็บไซต์สะดวกและรวดเร็วขึ้น<br />
-                      • ฝึกทักษะสาย Full-Stack Developer และ Database<br />
-                      • ได้เรียนรู้ภาษา html, css, Javascript เพิ่มมากขึ้น<br />
-                      • ได้ฝึกใช้งานเครื่องมือเสริมจาก React Library และ Bootstrap framework เพื่อช่วยให้หน้าตาของเว็บไซต์มีโครงสร้างที่ดีและสวยงาม<br />
-                      • ได้เรียนรู้การ Deploy เว็บไซต์ให้ใช้งานได้จริงร่วมกับ Github
+                      • ฝึกทักษะการทำงานร่วมกันในทีมเพื่อเพิ่มประสิทธิภาพการทำงาน
                     </p>
                   </div>
                 </div>
@@ -553,7 +652,7 @@ function App() {
               {/* Python Developer */}
               <div data-aos="fade-up" data-aos-delay="500">
                 <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8 text-left">
-                  Python Developer - Desktop Application with Tkinter python
+                  Python Developer - Desktop Simulation System with Tkinter Python
                 </h3>
                 <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col items-center gap-4 sm:gap-6 shadow-lg">
                   <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center w-full">
@@ -577,11 +676,37 @@ function App() {
                       BTS & MRT Ticketing Simulation System
                     </h3>
                     <p className="text-base sm:text-lg md:text-xl leading-loose">
-                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้างระบบจำลองด้วยภาษา Python ร่วมกับเครื่องเสริมอย่าง Tkinter Library
-                      เพื่อสร้างโปรแกรมเดสก์ท็อป<br /> ที่ผู้ใช้สามารถตอบโต้ได้<br />
-                      • ฝึกทักษะสาย Full-Stack Developer และ Database(DB Browser SQL)<br />
-                      • ฝึกการออกแบบ UX/UI แอปพลิเคชันด้วย Figma และ Adobe Photoshop<br />
-                      • ได้ทำโปรเจกต์ร่วมกับเพื่อน ซึ่งพวกเราเข้ากันได้ดีมาก
+                      ระบบจำลองการซื้อตั๋วรถไฟฟ้าด้วย Python + Tkinter<br />
+                      • ฝึก Full-stack และการใช้ Database (DB Browser SQL)<br />
+                      • ออกแบบ UX/UI ด้วย Figma และ Photoshop<br />
+                      • ทำงานร่วมกับเพื่อนร่วมทีมอย่างมีประสิทธิภาพ
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Java Developer */}
+              <div data-aos="fade-up" data-aos-delay="300">
+                <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8 text-left">
+                  Java Developer - A Desktop Application for a Game Trading Simulation System
+                </h3>
+                <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col items-center gap-4 sm:gap-6 shadow-lg">
+                  <img
+                    src="/Screenshot 2024-07-22 011545.png"
+                    alt="Java Developer Preview"
+                    className="w-full max-w-sm sm:max-w-xl rounded-xl shadow-lg"
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                  />
+                  <div className="text-gray-800 text-base sm:text-lg md:text-xl leading-relaxed text-left w-full">
+                    <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-snug text-left">
+                      Game Trading Simulation System
+                    </h3>
+                    <p className="text-base sm:text-lg md:text-xl leading-loose">
+                      เป็นโปรเจกต์รายวิชาที่มุ่งเน้นการสร้าง Desktop Application ด้วยภาษา Java<br />
+                      • เรียนรู้ OOP และการเชื่อมต่อ Database<br />
+                      • ออกแบบ UX/UI ด้วย Figma และ Photoshop<br />
+                      • ฝึกทักษะการทำงานเป็นทีม
                     </p>
                   </div>
                 </div>
@@ -605,7 +730,7 @@ function App() {
               {/* ✅ Editor & Graphic Design */}
               <div data-aos="fade-up" data-aos-delay="600">
                 <h3 className="text-xl sm:text-2xl font-bold text-blue-500 mb-6 sm:mb-8">
-                  Editor & Graphic Design - Aiyara Gems Co., Ltd.
+                  Video Editor & Graphic Design - Aiyara Gems Co., Ltd.
                 </h3>
                 <div className="bg-blue-100 p-4 sm:p-6 rounded-xl flex flex-col items-center shadow-lg">
                   <div className="flex flex-col md:flex-row gap-2 md:gap-4 justify-center w-full">
@@ -631,7 +756,18 @@ function App() {
                       • การนำเสนอผลงานและพูดคุยกับ CEO บริษัทในเรื่องของการทำงานข้ามสายงานไม่ตรงกับสาขาที่เรียน<br />
                       • ได้ทำงานร่วมกันเป็นทีมในแต่ละโปรเจกต์ของบริษัท<br />
                       • ได้ออกแบบและดีไซน์จริง ได้ลงมือปฎิบัติจริงนอกเหนือจากสิ่งที่เรียนในห้องเรียน<br />
-                      • ได้ฝึกทักษะจินตนาการสร้างสรรค์ลงในผลงาน และถ่ายทอดผลงานออกสื่อโซเชียลมีเดียจริง
+                      • ได้ฝึกทักษะจินตนาการสร้างสรรค์ลงในผลงาน และถ่ายทอดผลงานออกสื่อโซเชียลมีเดียจริง<br /><br />
+                      ⬇️ดูผลงานได้ผ่านลิงก์ด้านล่างนี้⬇️<br />
+                      {"Madamtoon_official มาดามตูนยอดคนสมองเพชร"}<br />
+                      🔗{" "}
+                      <a
+                        href="https://www.tiktok.com/@madamtoon_official"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 underline hover:text-blue-800"
+                      >
+                        madamtoon_official
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -759,7 +895,12 @@ function App() {
               item.href === "#home" ? (
                 <a
                   key={item.href}
-                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                  href="#home"
+                  onClick={(e) => {
+                    e.preventDefault(); // กันไม่ให้ browser กระตุก
+                    window.location.hash = "#home"; // บังคับเปลี่ยน URL
+                    window.scrollTo({ top: 0, behavior: "smooth" }); // เลื่อนกลับขึ้นบนสุด
+                  }}
                   className="relative inline-block underline-animate cursor-pointer"
                 >
                   {item.label}
